@@ -36,7 +36,7 @@ foreach ($skill in $skills) {
     if ($Global) { $args += "--global" }
     Write-Host ""
     Write-Host ("[{0}/{1}] Instalando {2} de {3}" -f $index, $skills.Count, $skill.name, $skill.source) -ForegroundColor Yellow
-    & npx @args
+    & npx --yes @args
     if ($LASTEXITCODE -eq 0) {
         $installed++
         Write-Host "OK: $($skill.name)" -ForegroundColor Green
