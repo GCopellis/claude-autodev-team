@@ -1,0 +1,19 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+.private/
+
+# Local state and generated outputs
+.claude/local/
+docs/reports/*
+!docs/reports/.gitkeep
+contexto.local.md
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
