@@ -26,7 +26,8 @@ claude
 Use `/autodev <descrição da tarefa>` se a versão instalada reconhecer a skill. Se ela não aparecer, confira o caminho e a versão do Claude Code.
 
 ## Skills
-O catálogo é uma referência, não um instalador. Confirme nomes e caminhos reais e leia as instruções. Não altere skills globais de colegas sem consentimento.
+
+Para instalar automaticamente o conjunto de skills com fontes conhecidas, consulte o [guia do instalador automático](INSTALADOR-DE-SKILLS.md). O script usa Node.js/npm e instala no projeto atual por padrão. O catálogo continua sendo uma referência: algumas skills citadas ainda precisam ter a origem validada antes de serem adicionadas ao manifesto. Não altere skills globais de colegas sem consentimento.
 
 ## Produção
 Configure separadamente provedor, segredos no armazenamento seguro do provedor, domínio, migrações, backups, verificações de saúde e reversão. Comece por homologação. Instalar este kit não autoriza publicação automática em produção.

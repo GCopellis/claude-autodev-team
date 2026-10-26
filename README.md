@@ -37,7 +37,8 @@ Consulte o **[Guia detalhado dos agentes](pt-BR/docs/GUIA-DOS-AGENTES.md)** para
 - `contexto.md` — modelo compacto para preservar o estado do projeto entre sessões.
 - `pt-BR/docs/GUIA-DOS-AGENTES.md` — manual detalhado da equipe e limites de responsabilidade.
 - `pt-BR/docs/` — instalação, catálogo de skills, reutilização de recursos, critérios de qualidade, custos/contexto, publicação e fluxo de trabalho em português.
-- `scripts/` — auxiliar PowerShell para inventariar skills instaladas localmente.
+- `scripts/` — instaladores e auxiliares PowerShell para instalar/inventariar skills.
+- `config/skills-manifest.json` — manifesto das skills com fonte conhecida para instalação automatizada.
 - `en/README.md` — versão em inglês deste README.
 
 ## Instalação rápida (Windows / PowerShell)
