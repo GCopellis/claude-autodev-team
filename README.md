@@ -1,5 +1,7 @@
 # Claude Autodev Team
 
+**Escolha o idioma / Choose your language:** [Português (Brasil)](pt-BR/README.md) · [English](README.md)
+
 Reusable multi-agent development workflow for Claude Code: one orchestrator, nine specialist agents, skill-aware execution, Git worktrees, verification gates, context compaction, and cost-conscious coordination.
 
 > This repository provides configuration and instructions. It does not guarantee that every agent, skill, model, tool, or deployment provider is available in every installation. Verify installed capabilities first.
