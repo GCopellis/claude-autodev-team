@@ -32,11 +32,11 @@ $installed = 0
 $index = 0
 foreach ($skill in $skills) {
     $index++
-    $args = @("skills", "add", [string]$skill.source, "--skill", [string]$skill.name, "--agent", [string]$manifest.targetAgent, "--copy", "--yes")
-    if ($Global) { $args += "--global" }
+    $cliArgs = @("skills", "add", [string]$skill.source, "--skill", [string]$skill.name, "--agent", [string]$manifest.targetAgent, "--copy", "--yes")
+    if ($Global) { $cliArgs += "--global" }
     Write-Host ""
     Write-Host ("[{0}/{1}] Instalando {2} de {3}" -f $index, $skills.Count, $skill.name, $skill.source) -ForegroundColor Yellow
-    & npx --yes @args
+    & npx --yes @cliArgs
     if ($LASTEXITCODE -eq 0) {
         $installed++
         Write-Host "OK: $($skill.name)" -ForegroundColor Green
