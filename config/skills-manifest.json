@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "targetAgent": "claude-code",
+  "defaultScope": "project",
+  "skills": [
+    {
+      "name": "using-superpowers",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "brainstorming",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "writing-plans",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "subagent-driven-development",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "test-driven-development",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "systematic-debugging",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "verification-before-completion",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "requesting-code-review",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "receiving-code-review",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "using-git-worktrees",
+      "source": "obra/superpowers",
+      "group": "core"
+    },
+    {
+      "name": "writing-skills",
+      "source": "obra/superpowers",
+      "group": "core"
+    }
+  ],
+  "notInstallableAsSkills": [
+    {
+      "name": "context7-mcp",
+      "type": "MCP server",
+      "note": "É uma integração/servidor MCP, não uma skill; exige configuração própria."
+    }
+  ],
+  "manualSourceRequired": [
+    "graphify",
+    "investigate-first",
+    "lean-build",
+    "migration",
+    "safe-refactor",
+    "simplify",
+    "verify-and-stop",
+    "security-audit",
+    "security-review",
+    "ponytail-audit",
+    "ponytail-debt",
+    "ci-pipeline-and-gates",
+    "release-and-store-shipping",
+    "ponytail-review",
+    "caveman-evidence-review",
+    "caveman-compress",
+    "caveman-stats",
+    "caveman-optimize",
+    "ponytail-gain",
+    "cavecrew",
+    "fewer-permission-prompts",
+    "user-research",
+    "research-synthesis",
+    "ux-copy",
+    "dart-flutter",
+    "vgv-ai-flutter-plugin",
+    "flutter",
+    "design-system",
+    "design-critique",
+    "design-handoff",
+    "accessibility-review",
+    "design-branding"
+  ]
+}
